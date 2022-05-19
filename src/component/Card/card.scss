@@ -1,0 +1,34 @@
+@import "../../styles/variables";
+
+.card-style {
+  width: 320px;
+  height: 320px;
+  background: $background_card;
+  border-radius: 10px;
+  padding: 18px;
+  margin: 15px;
+  color: $text;
+}
+.card-style img {
+  border-radius: 50%;
+  height: 250px;
+}
+.content-description {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  div:nth-child(1n) {
+    margin-bottom: 5px;
+  }
+  div:nth-child(2n) {
+    color: #8b5dcb;
+  }
+}
+.content-description-action {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.content-img {
+  text-align: center;
+}

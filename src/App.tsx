@@ -1,5 +1,5 @@
 import {PersonProvider} from './context/PersonContext';
-import ListCard from './container/ListCard';
+import Home from './pages/Home/Home';
 import './App.css';
 
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <PersonProvider>
-      <ListCard />
+      <Home />
     </PersonProvider>
   );
 }
